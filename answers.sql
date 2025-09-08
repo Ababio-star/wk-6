@@ -9,7 +9,7 @@ INNER JOIN offices o
 ON e.officeCode=o.officeCode
 
 -- Question 2
-Selecting 3 columns from products table and using LEFT JOIN
+-- Selecting 3 columns from products table and using LEFT JOIN
 SELECT p.productName, p.productVendor, p.productLine
 FROM products p
 LEFT JOIN productlines l
